@@ -1,0 +1,15 @@
+#animation{
+    animation-name: identifier;
+    animation-delay:0ms;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes identifier {
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
